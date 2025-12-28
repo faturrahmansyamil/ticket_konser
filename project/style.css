@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+nav {
+    background: #111;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    background: url('https://i.pinimg.com/1200x/ef/a8/e2/efa8e21678666e62f72aa068260d212e.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    padding-top: 80px;
+    color: white;
+}
+.footer {
+    background-color: #111;
+    color: beige;
+    text-align: center;
+    padding: 15px 0;    
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn {
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 50px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
+
+/* Responsive HP */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+}
